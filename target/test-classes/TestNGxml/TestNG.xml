@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite verbose="1" name="Sample_Test_suite" preserve-order="true" parallel="tests" thread-count="1">
+	<!--
+	<listeners>
+		<listener class-name="com.rahul.automation.utils.TestListener"/>
+		<listener class-name="com.rahul.automation.utils.AnnotationTransformer"/>
+	</listeners>
+	-->
+
+	<test name="TestSuite">
+		<classes>
+			<class name="com.rahul.projectname.automation.tests.MyTest" />
+		</classes>
+	</test>
+</suite>

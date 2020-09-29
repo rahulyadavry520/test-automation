@@ -1,0 +1,5 @@
+Title: Gmail
+
+Gmail_Input_Username: xpath: //input[contains(@type,'email')]
+Gmail_Username_Next_btn: xpath: //div/button/span[contains(text(),'Next')]//following-sibling::div[1]
+Gmail_Input_Password: xpath: //input[contains(@type,'password')]

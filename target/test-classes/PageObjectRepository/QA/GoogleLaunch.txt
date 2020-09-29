@@ -1,0 +1,6 @@
+Title: Google
+
+Gmail_Menu: xpath: //a[@title="Google apps"]
+Gmail_frame: xpath: //iframe[@role="presentation"]
+Gmail_Icon: xpath: //a[contains(@href,'mail.google.com')]
+Gmail_Sign_In_Btn: xpath: //a[contains(text(),'Sign in')]

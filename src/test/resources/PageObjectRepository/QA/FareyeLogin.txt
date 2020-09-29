@@ -1,0 +1,10 @@
+Title: Fareye
+
+Username: xpath: //input[@name="username"]
+Next_btn: xpath: //span[contains(text(),'Next')]/parent::button
+Password: xpath: //input[@name="password"]
+Sign_In_Btn: xpath: //span[contains(text(),'Sign In')]/parent::button
+Old_ui_button: xpath: //article[contains(text(),'posti')]//parent::button//preceding::button[1]
+old_ui_link: xpath: //a/p[contains(text(),'Fareye (Legacy)')]
+Users_link: xpath: //nav//li/a/span[contains(text(),'Users')]
+Last_Mile_Exec_link: xpath: //ul/li/a[contains(text(),'Last Mile Executive')]
